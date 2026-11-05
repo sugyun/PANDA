@@ -1,0 +1,23 @@
+__pycache__/
+*.py[cod]
+*.log
+.pytest_cache/
+.idea/
+.vscode/
+outputs/
+downloads/
+
+# Distributed separately as versioned external release assets.
+checkpoints/
+data/THERAPI_CSG2A_zscore/
+external/CSG2A_asg_minimal/ckpts/260207_CSG2A_finetune_GDSC_MOSA_platform.pt
+
+# Downloaded from the THERAPI data release; install with scripts/prepare_therapi_data.py.
+data/THERAPI/
+data/External/External_labeled_gex.csv
+data/External/External_labeled_info.csv
+data/External/External_unlabeled_gex.csv
+data/External/External_unlabeled_info.csv
+
+# Downloaded separately from the upstream CSG2A release.
+external/CSG2A_asg_minimal/ckpts/CSG2A_LINCSpretrained_Landmark.pt

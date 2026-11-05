@@ -1,0 +1,10 @@
+{
+  "n_pairs":383.0,
+  "n_patients":356.0,
+  "n_positive":185.0,
+  "n_negative":198.0,
+  "n_checkpoints":10.0,
+  "n_bootstrap":10000.0,
+  "rejected_single_class_resamples":0.0,
+  "threshold":0.5
+}

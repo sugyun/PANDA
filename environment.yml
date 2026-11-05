@@ -1,0 +1,12 @@
+name: panda
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - pytorch=2.9.1
+  - pytorch-cuda=12.8
+  - pip:
+      - -r requirements.txt
